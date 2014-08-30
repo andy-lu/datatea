@@ -1,0 +1,29 @@
+{
+    "common": {
+        "datanumbers": "100",
+        "column_separator": ",",
+        "ouput": "D:\\我的作品\\datatea_py\\",
+        "filename": "mytest"
+    },
+	"columns": 
+		{
+            "column001": "number:10000:99999|number:1000:9999|comment: userid",
+            "column002": "dim:dim1|number:10000000:99999999|comment: phonenum",
+            "column003": "number:100000:999999|number:1950:1999|dim:month|dim:day|number:1000:9999|comment:身份证",
+            "column004": "regex:[\\u4e00-\\u9fa5]{2,4}|comment: 姓名",
+            "column005": "number:1:2000|comment: 次数",
+            "column006": "number:0:10000|comment: 时长",
+            "column007": "decimal:0:1000:2|comment: 金额",
+            "column008": "decimal:0:1000:2|comment: 金额",
+            "column009": "increase:0:1|comment: 测试"
+            
+		}
+	,
+    "dim_string": 
+        {
+            "dim1": "152|135|187",
+            "month": "01|02|03|04|05|06|07|08|09|10|11|12",
+            "day": "01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28"
+        }
+    
+}
